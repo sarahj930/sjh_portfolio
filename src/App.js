@@ -3,7 +3,7 @@ import './App.css';
 import * as ReactBootStrap from "react-bootstrap";
 import Aos from "aos"
 import "aos/dist/aos.css"
-import { BrowserRouter as Router } from 'react-router-dom';
+import { HashRouter as Router } from 'react-router-dom';
 import Route from 'react-router-dom/Route'
 
 {/*organization of the app - this is what gets rendered*/}
@@ -56,7 +56,7 @@ class App extends Component {
                 </div>
               );}}/>
 
-          <Route path="sjh_portfolio/aboutMe" exact render={
+          <Route path="/aboutMe" exact render={
             () => {
               return (
                 <div className="MainContent">
@@ -90,7 +90,7 @@ class App extends Component {
                 </div>
           );}}/>
 
-          <Route path="sjh_portfolio/affinity" exact render={
+          <Route path="/affinity" exact render={
             () => {
               return (
                 <div className="MainContent">
