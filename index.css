@@ -1,0 +1,240 @@
+/* from create-react-app */
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* from create-react-app */
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+/* Making hero secion span whole screen */
+.Hero {
+  margin: 0%;
+}
+
+/* contact info on contact page */
+#contact {
+  padding:3%;
+}
+
+/* Making hero secion span whole screen */
+#hero {
+  padding: 0px;
+}
+
+/* SVG Animation! */
+.b {
+  fill: none;
+  stroke: #d8fe52;
+  stroke-width: 17px;
+  stroke-miterlimit:10;
+   stroke-dasharray: 30000px;
+   stroke-dashoffset: 30000px;
+   animation: move 3s linear;
+   animation-fill-mode: both;
+   animation-direction: forwards;
+   margin-top: -4%;
+   margin-left: 4%;
+}
+
+/* SVG animation keyframes */
+@keyframes move {
+  0% {
+    stroke-dasharray: 0 4000;
+    stroke-dashoffset: 100;
+  }
+ 100% {
+   stroke-dasharray: 4000 0;
+   stroke-dashoffset: 0;
+ }
+}
+
+/* My name in the hero section on home page */
+#hero-name {
+  margin-top: 10%;
+  margin-left: 10%;
+  height: 80%;
+  width: 80%;
+}
+
+/* names of projects on home page */
+#project-names {
+  margin-top: 5%;
+  text-align: center;
+}
+
+/* base styling for everything */
+.MainContent {
+  font-family: 'Lato';
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 21px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: black;
+}
+
+/* Styling for navbar other than what is given by bootstrap */
+.Nav {
+  font-family: 'Lato';
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 21px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: black;
+}
+
+/* styling logo section of navbar */
+a.navbar-brand {
+  font-size: 14px;
+}
+
+/* hero section on home page must be absolute to allow overlapping with SVG */
+.Hero-home {
+  position: absolute;
+}
+
+/* spacing work items on home page */
+WorkItem {
+  margin-top: 10%;
+}
+
+/* ID used to pad multiple components */
+#pad {
+  padding-top: 10%;
+
+}
+
+/* used to left align multiple components */
+.left-align {
+  text-align: left;
+}
+
+/* used to vertically center align multiple components */
+.align-me {
+  display: flex;
+  align-items: center;
+}
+
+/* Styling for green footer */
+#green {
+  margin-top: 10%;
+  color: white;
+  font-weight: bold;
+  background-color: #CEE963;
+  margin-left: 0px;
+  margin-right: 0px;
+  width: inherit;
+  text-align: left;
+  padding: 3%;
+}
+
+/* Styling for pink footer */
+#pink {
+  margin-top: 10%;
+  color: white;
+  font-weight: bold;
+  background-color: #C84A5C;
+  margin-left: 0px;
+  margin-right: 0px;
+  width: inherit;
+  text-align: left;
+  padding: 3%;
+}
+
+/* Styling for dark blue footer */
+#dark-blue {
+  margin-top: 10%;
+  color: white;
+  font-weight: bold;
+  background-color: #363859;
+  margin-left: 0px;
+  margin-right: 0px;
+  width: inherit;
+  text-align: left;
+  padding: 3%;
+}
+
+/* Styling for contact page */
+#orange {
+ color: white;
+ font-weight: bold;
+ background-color: #FF9B21;
+ margin-left: 0px;
+ margin-right: 0px;
+ width: inherit;
+ height: 100%;
+ text-align: left;
+ font-size: 10%;
+}
+
+/* Top level header */
+h1 {
+  font-weight: 800;
+}
+
+/* The icons in the footers */
+.contact-pic {
+  height: 60px;
+  width: 60px;
+  padding: 1%
+}
+
+/* Removing blue hyperlinks */
+.link {
+  color: inherit;
+}
+.link:hover {
+  color: inherit;
+}
+
+/* Styling for drama blocks */
+#drama-title {
+  font-size: 60px;
+  font-weight: 800;
+}
+#drama-p {
+  font-size: 20px;
+  font-weight: 500;
+}
+#drama-block {
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-top: 5%;
+}
+
+/* More padding for multiple components */
+#pad2 {
+  padding-top: 12%;
+}
+
+/* Carrots that take you to details */
+#carrot-right {
+  height: 10%;
+  width: 50%;
+  margin-left: 100%;
+  color: grey;
+}
+
+/* Styling for a smaller drama block */
+#drama-small {
+  font-size: 40px;
+
+}
+
+/* Picture on contact page */
+#grana {
+  margin-right: 0px;
+  margin-top: 0px;
+  padding: 0px;
+}
