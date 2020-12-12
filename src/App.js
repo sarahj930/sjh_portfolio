@@ -12,7 +12,7 @@ class App extends Component {
     return (
       <Router>
         <div className="App">
-          <Route path="/." exact render={
+          <Route path="" exact render={
             ()=> {
               return (
                 <div className="MainContent">
@@ -193,7 +193,6 @@ class App extends Component {
                     paragraph3="3. What is an appropriate and comfortable level of structure to facilitate interpersonal connection?"
                     paragraph4="4. How can we encourage continued connection between users on shared interests?"
                   />
-
                   <br></br><br></br>
 
                   <TextBlock
@@ -262,14 +261,14 @@ function Navbar() {
   return (
     <div className="Nav">
       <ReactBootStrap.Navbar collapseOnSelect expand="md" bg="light" variant="light">
-      <ReactBootStrap.Navbar.Brand href=".">Sarah Jessamyn Hand</ReactBootStrap.Navbar.Brand>
+      <ReactBootStrap.Navbar.Brand href="/">Sarah Jessamyn Hand</ReactBootStrap.Navbar.Brand>
       <ReactBootStrap.Navbar.Toggle aria-controls="responsive-navbar-nav" />
       <ReactBootStrap.Navbar.Collapse id="responsive-navbar-nav">
       <ReactBootStrap.Nav className="mr-auto">
       </ReactBootStrap.Nav>
 
       <ReactBootStrap.Nav>
-      <ReactBootStrap.Nav.Link href=".#work">My Work</ReactBootStrap.Nav.Link>
+      <ReactBootStrap.Nav.Link href="#work">My Work</ReactBootStrap.Nav.Link>
       <ReactBootStrap.Nav.Link href="aboutMe">About Me</ReactBootStrap.Nav.Link>
       <ReactBootStrap.Nav.Link href="Sarah-Hand-Resume-Fall-2020.pdf" download>Resume</ReactBootStrap.Nav.Link>
       <ReactBootStrap.Nav.Link href="#Contact">Contact</ReactBootStrap.Nav.Link>
