@@ -56,7 +56,7 @@ class App extends Component {
                 </div>
               );}}/>
 
-          <Route path="/aboutMe" exact render={
+          <Route path="sjh_portfolio/aboutMe" exact render={
             () => {
               return (
                 <div className="MainContent">
@@ -90,7 +90,7 @@ class App extends Component {
                 </div>
           );}}/>
 
-          <Route path="/affinity" exact render={
+          <Route path="sjh_portfolio/affinity" exact render={
             () => {
               return (
                 <div className="MainContent">
